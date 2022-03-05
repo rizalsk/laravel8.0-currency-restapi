@@ -3,7 +3,7 @@
 ---
 
 [Laravel PHP Framework 8.0](http://laravel.com).
-
+[APP DEMO on Heroku](https://avz-laravel-currency.herokuapp.com/) : `https://avz-laravel-currency.herokuapp.com`.
 ## Prerequisites
 
 1. PHP > 7.3
