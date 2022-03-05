@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Pagination\Paginator;
 use NascentAfrica\Jetstrap\JetstrapFacade;
 use Illuminate\Http\Resources\Json\JsonResource;
+use Illuminate\Support\Facades\URL;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -32,5 +33,8 @@ class AppServiceProvider extends ServiceProvider
         Schema::defaultstringLength(191);
         //Paginator::useBootstrap();
         //JetstrapFacade::useAdminLte3();
+        if (env('APP_FORCE_HTTPS', false)) {
+            URL::forceScheme('https');
+        }
     }
 }
