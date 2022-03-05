@@ -53,6 +53,11 @@
     ```
 	php artisan passport:client --password
 	```
+1. When deploying Passport to your application's servers for the first time, you will likely need to run the passport:keys command. 
+
+    ```
+	php artisan passport:keys
+	```
 1. Login with postman to get token
     - Method : POST
     - Default URL : {{base_url}}/api/login
