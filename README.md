@@ -115,7 +115,7 @@
     date or latest
 - Curl
     ```
-    curl --location --request GET '127.0.0.1:8000/api/currency/2022-02-11' \
+    curl --location --request GET '{{base_url}}/api/currency/2022-02-11' \
     --header 'Authorization: Bearer {{replace with token}}'
     ```
     change {date} to latest if you want to fetch latest currencies
