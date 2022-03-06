@@ -156,15 +156,15 @@
     ```
 ## Demo on Heroku
   - POST
-    [https://avz-laravel-currency.herokuapp.com/api/login](https://avz-laravel-currency.herokuapp.com/api/login)
+    - [https://avz-laravel-currency.herokuapp.com/api/login](https://avz-laravel-currency.herokuapp.com/api/login)
     ```
     user : admin@mail.com
     password : password
     ```
   - GET (Auth Bearer Token)
-  [https://avz-laravel-currency.herokuapp.com/api/currency/latest](https://avz-laravel-currency.herokuapp.com/api/currency/latest)
-  [https://avz-laravel-currency.herokuapp.com/api/currencies/usd](https://avz-laravel-currency.herokuapp.com/api/currencies/usd)
-  [https://avz-laravel-currency.herokuapp.com/api/currencies/usd](https://avz-laravel-currency.herokuapp.com/api/currencies/usd)
+    - [https://avz-laravel-currency.herokuapp.com/api/currency/latest](https://avz-laravel-currency.herokuapp.com/api/currency/latest)
+    - [https://avz-laravel-currency.herokuapp.com/api/currencies/usd](https://avz-laravel-currency.herokuapp.com/api/currencies/usd)
+    - [https://avz-laravel-currency.herokuapp.com/api/currencies/usd](https://avz-laravel-currency.herokuapp.com/api/currencies/usd)
 
 
 ## Plugins
