@@ -163,7 +163,7 @@
     ```
   - GET (Auth Bearer Token)
     - [https://avz-laravel-currency.herokuapp.com/api/currency/latest](https://avz-laravel-currency.herokuapp.com/api/currency/latest)
-    - [https://avz-laravel-currency.herokuapp.com/api/currencies/usd](https://avz-laravel-currency.herokuapp.com/api/currencies/usd)
+    - [https://avz-laravel-currency.herokuapp.com/api/currencies](https://avz-laravel-currency.herokuapp.com/api/currencies)
     - [https://avz-laravel-currency.herokuapp.com/api/currencies/usd](https://avz-laravel-currency.herokuapp.com/api/currencies/usd)
 
 
