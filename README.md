@@ -3,6 +3,7 @@
 ---
 
 [Laravel PHP Framework 8.0](http://laravel.com).
+
 [APP DEMO on Heroku](https://avz-laravel-currency.herokuapp.com/) : `https://avz-laravel-currency.herokuapp.com`.
 ## Prerequisites
 
@@ -10,11 +11,15 @@
 1. MySQL or PostgreSql
 1. [Composer](http://getcomposer.org)
 
+
 ## Getting Started
 
 1. Clone to your base project directory.
-
-
+    
+	```
+	git clone https://github.com/rizalsk/laravel8.0-currency-restapi.git
+	```
+	
 2. Install composer dependencies.
 
 	```
@@ -149,6 +154,18 @@
     curl --location --request GET '{{base_url}}/api/currencies' \
     --header 'Authorization: Bearer {{replace with token}}'
     ```
+## Demo on Heroku
+  - POST
+    [https://avz-laravel-currency.herokuapp.com/api/login](https://avz-laravel-currency.herokuapp.com/api/login)
+    ```
+    user : admin@mail.com
+    password : password
+    ```
+  - GET (Auth Bearer Token)
+  [https://avz-laravel-currency.herokuapp.com/api/currency/latest](https://avz-laravel-currency.herokuapp.com/api/currency/latest)
+  [https://avz-laravel-currency.herokuapp.com/api/currencies/usd](https://avz-laravel-currency.herokuapp.com/api/currencies/usd)
+  [https://avz-laravel-currency.herokuapp.com/api/currencies/usd](https://avz-laravel-currency.herokuapp.com/api/currencies/usd)
+
 
 ## Plugins
 In this laravel 8.0, **we've installed**:
